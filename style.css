@@ -17,7 +17,7 @@ body {
 .mainbody{
 	grid-column: 1 / 1;
 	background-color: white;
-	padding: 45px;
+	padding: 27px;
 	box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.12);
 }
 .mainbody-1{
@@ -81,7 +81,7 @@ p {
 	.mainbody{
 		grid-column: 2 / 2;
 		background-color: white;
-		padding: 27px;
+		padding: 42px;
 		box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.12);
 	}
 
