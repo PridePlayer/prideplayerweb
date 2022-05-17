@@ -8,7 +8,8 @@
 body {
 	background-image: url(https://s3.bmp.ovh/imgs/2022/05/15/e37fb92523cd5283.png);
 	background-repeat: repeat;
-	margin:0px; padding:0px; 
+	margin:0px; padding:0px;
+	background-size:100%; 
 }
 .container {
 	display: grid;
@@ -30,14 +31,14 @@ body {
 }
 .title{
 	grid-column: 2 / 2;
-	width:350px;
+	width:250px;
 	margin-top: 20px;
 }
 p {
 	line-height: 1.5;
 	word-wrap:break-word;
 	font-family: "HANYI";
-	font-size: 20px;
+
 	text-align:justify;
 }
 
@@ -94,7 +95,14 @@ p {
 		width: 350px;
 		margin-top: 20px;
 	}
-
+	p {
+		line-height: 1.5;
+		word-wrap:break-word;
+		font-family: "HANYI";
+		font-size:18px;
+		text-align:justify;
+	}
+	
 	
 	.mainbody{
 		grid-column: 2 / 2;
